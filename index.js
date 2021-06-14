@@ -28,11 +28,18 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
   Study the code for counter1 and counter2, then answer the questions below.
   
   1. What is the difference between counter1 and counter2?
+  Theres a function in a function with counter 1.
+
   
   2. Which of the two uses a closure? How can you tell?
+
+  counter 2 uses a closure, it goes outside its scope to get data the count number.
   
   3. In what scenario would the counter1 code be preferable? In what scenario would 
      counter2 be better?  
+
+     counter 1 would be better if this would be the only time you would be using "count".
+     counter 2 would be better if you had needed more functions to use "count".
 */
 
 // counter1 code

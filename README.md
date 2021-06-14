@@ -43,7 +43,7 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
-closure is when a function inside of another function has to go out of its scope for data
+closure is when a function inside of another function has to go out of its scope for data.
 
 2. Study the following code, then answer the questions below.
 
@@ -66,8 +66,17 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+line 52 goes out of its scope to get data. Its a function in another function.
+
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change? 
+the function stays the same but the result of the roll is random.
+
+
 c. What is the lexical scope of `newRoll`? 
+function personalDice(name){
+
+
+
 
 
 ### Task 3 - Stretch Goals
