@@ -43,6 +43,8 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+closure is when a function inside of another function has to go out of its scope for data
+
 2. Study the following code, then answer the questions below.
 
 ```js
